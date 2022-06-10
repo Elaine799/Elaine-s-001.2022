@@ -8,11 +8,33 @@
     <style>
         body{
             background-color: #fff;
-            background-image: url(https://picsum.photos/id/200/300);
+            background-image: url(https://picsum.photos/id/238/64/1200);
             background-repeat: no-repeat;
             /* repeat / no repeat / repeat x /repeat y */
-            background-position: 100px 300px;
+            background-position: 50px 50px;
             /* 以文字所在的範圍來算，除了打水平、垂直px，top, bottom, left, right, center */
+            background-attachment: fixed;
+            /* scroll, fixed */
+            background-size: cover;
+            /* contain, cover, 120% */
+            background-blend-mode:difference;
+             /* 
+                screen      濾色(去黑留白)
+                multiply    色彩增值(去白留黑)
+                overlay     覆蓋
+                darken      變暗
+                lighten     變亮
+                color       顏色
+                luminosity  明度
+                hue         色相
+                soft-light  柔光
+                hard-light  實光
+                color-burn  加深顏色
+                color-dodge 加亮顏色
+                exclusion   排除
+                difference  差異化
+                Saturation  飽合度
+            */
         }
     </style>
 </head>
